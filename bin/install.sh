@@ -19,7 +19,7 @@ composer install
 npm install
 
 # Set WP-CLI command path
-WP='vendor/bin/wp'
+WP='wp'
 
 # Verify if the WordPress is installed, if not download and create the
 # wp-config.php
