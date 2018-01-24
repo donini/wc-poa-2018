@@ -3,7 +3,7 @@
   "description": "WordCamp POA 2018 remote CSS environment.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:edpittol/wc-poa-2018.git"
+    "url": "git@github.com:donini/wc-poa-2018.git"
   },
   "version": "0.1.0",
   "license": "GPL-2.0",
