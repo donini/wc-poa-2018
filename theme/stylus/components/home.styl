@@ -4,58 +4,69 @@
     display none !important
 #primary
     #main
-        .panel-content
-            .wrap
-                max-width 100% 
-                header.entry-header
-                    width 100%
-                    float none
-                    padding 0 1em 4em 1em
-                    margin 0
-                    h2 
-                        text-align center
-                        font-size 52px
-                        font-weight 300
-                        color $primary-color
-                        text-transform uppercase
-                        letter-spacing 0
-                div.entry-content
-                    h2 
-                        color $secondary-color
-                        text-transform uppercase
-                        font-size 29px
-                        font-weight 300
-                        &:after
-                            width 290px
-                            border 1px solid $main-text
-                            padding 2em 0
-                            content ''
-                            display block
-                            margin 0 auto
-                    p
-                        color $main-text
-                        font-size 16px
-        #post-168 // very delicated but no other option
-            &:before
-                background-image url(https://2018.portoalegre.wordcamp.org/files/2018/02/lacador.png)
-                background-repeat no-repeat
-                width 380px
-                height 654px
-                display block
-                content ''
-            &:after
-                background-image url(https://2018.portoalegre.wordcamp.org/files/2018/02/xiruu_community.png)
-                background-repeat no-repeat
-                width 380px
-                height 654px
-                display block
-                content ''
+        article
+            border-top 0
             .panel-content
                 .wrap
-                    div.entry-content
-                        width auto
-                        max-width 570px
+                    max-width 100% 
+                    header.entry-header
+                        width 100%
                         float none
-                        margin 0 auto
+                        padding 0 1em 4em 1em
+                        margin 0
+                        h2 
+                            text-align center
+                            font-size 52px
+                            font-weight 300
+                            color $primary-color
+                            text-transform uppercase
+                            letter-spacing 0
+                            margin 0
+                    div.entry-content
+                        h2 
+                            color $secondary-color
+                            text-transform uppercase
+                            font-size 29px
+                            font-weight 300
+                            &:after
+                                width 290px
+                                border-bottom 1px solid $main-text
+                                padding 2em 0 0
+                                margin 0 0 2em
+                                content ''
+                                display block
+                                margin 0 auto
+                        p
+                            color $main-text
+                            font-size 16px
+            #post-168 // very delicated but no other option
+                &:before
+                    background-image url(https://2018.portoalegre.wordcamp.org/files/2018/02/lacador.png)
+                    background-repeat no-repeat
+                    width 380px
+                    height 654px
+                    display block
+                    content ''
+                    position absolute
+                    bottom 0
+                    left 10px
+                &:after
+                    background-image url(https://2018.portoalegre.wordcamp.org/files/2018/02/xiruu_community.png)
+                    background-repeat no-repeat
+                    width 347px
+                    height 355px
+                    display block
+                    content ''
+                    position absolute
+                    right 10px
+                    top 80%
+                    transform translateY(-50%)
+                .panel-content
+                    .wrap
+                        div.entry-content
+                            width auto
+                            max-width 570px
+                            float none
+                            margin 0 auto
 
 
