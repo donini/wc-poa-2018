@@ -10,24 +10,49 @@
                 header.entry-header
                     width 100%
                     float none
-                    padding 4em 1em
+                    padding 0 1em 4em 1em
+                    margin 0
                     h2 
                         text-align center
                         font-size 52px
                         font-weight 300
                         color $primary-color
                         text-transform uppercase
+                        letter-spacing 0
                 div.entry-content
                     h2 
                         color $secondary-color
                         text-transform uppercase
                         font-size 29px
                         font-weight 500
+                        &:after
+                            width 290px
+                            border 1px solid $main-text
+                            padding 2em 0
                     p
                         color $main-text
                         font-size 16px
-        // #post-168 // very delicated but no other option
-        //     .post-content
-        //         .wrap
-        //             max-with 100% 
+        #post-168 // very delicated but no other option
+            &:before
+                background-image url(https://2018.portoalegre.wordcamp.org/files/2018/02/lacador.png)
+                background-repeat no-repeat
+                width 380px
+                height 654px
+                display block
+                content ''
+            &:after
+                background-image url(https://2018.portoalegre.wordcamp.org/files/2018/02/xiruu_community.png)
+                background-repeat no-repeat
+                width 380px
+                height 654px
+                display block
+                content ''
+            .post-content
+                .wrap
+                    div.entry-content
+                        width auto
+                        max-with 570px
+                        float none
+                        margin 0 auto
+
 
