@@ -98,9 +98,9 @@
                                 margin 1em auto 6.5em auto
         #panel2
             background-image url(https://2018.portoalegre.wordcamp.org/files/2018/03/novidades-bg.png)
-            background-position top center
+            background-position top right
             background-repeat no-repeat
-            background-size cover
+            background-size contain
             .panel-content
                 .wrap
                     .entry-header
@@ -108,8 +108,10 @@
                         .entry-meta
                             color $secondary-color
                             border-bottom 1px solid $secondary-color
+                            padding 16px 20px
                         .entry-title
                             text-decoration uppercase
+                            color $primary-color
                     .entry-content
                         display none
                     .recent-posts
@@ -119,7 +121,9 @@
                             border 1px solid $secondary-color
                             border-radius 7px
                             .entry-header
+                                padding 22px 20px
                             .entry-summary
+                                padding 0 20px 22px
                                 .link-more
                                     display none
 
