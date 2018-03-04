@@ -105,13 +105,6 @@
                 .wrap
                     .entry-header
                         padding 0
-                        .entry-meta
-                            color $secondary-color
-                            border-bottom 1px solid $secondary-color
-                            padding 16px 20px
-                        .entry-title
-                            text-decoration uppercase
-                            color $primary-color
                     .entry-content
                         display none
                     .recent-posts
@@ -121,7 +114,13 @@
                             border 1px solid $secondary-color
                             border-radius 7px
                             .entry-header
-                                padding 22px 20px
+                                .entry-meta
+                                    color $secondary-color
+                                    border-bottom 1px solid $secondary-color
+                                    padding 22px 20px
+                                .entry-title
+                                    text-transform uppercase
+                                    color $primary-color
                             .entry-summary
                                 padding 0 20px 22px
                                 .link-more
