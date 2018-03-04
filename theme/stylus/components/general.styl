@@ -10,59 +10,68 @@
 .widget,
 .posts-navigation
     a
-        transition unset
-        box-shadow none
+        transition unset !important
+        box-shadow none !important
 .site-footer
     .widget-area,
         a
-            transition unset
-            box-shadow none
+            transition unset !important
+            box-shadow none !important
 .widget_authors
     a
         strong
-            transition unset
-            box-shadow none
+            transition unset !important
+            box-shadow none !important
 .site-footer
     background-color $gray-med
-    h2
-        color $primary-color
-        font-size 24px
-    .footer-widget-1
-        width 600px
-        #text-2
-            width 200px
-            float left
-        #text-3            
-            &:after 
-                content ""
-                display table
-                clear both
-        #blog_subscription-2
-            border-top 1px solid $main-text
-    .footer-widget-2
-        width 600px
-        .wcb_widget_sponsors
-            .sponsor-level
-                border-bottom 1px solid $main-text
-            // .patrao-velho
-            //     a
-            .patrao
-                a
-                    height 150px
-                    max-width 260px
-            .macanudo
-                a
-                    height 120px
-                    max-width 200px
-            .guapo
-                a
-                    height 100px
-                    max-width 150px
-            .petico
-                a
-                    height 85px
-                    max-width 120px
-            .apoio
-                a
-                height 65px
-                max-width 110px
+    .wrap
+        max-width 100%
+        h2
+            color $primary-color
+            font-size 24px
+        .footer-widget-1
+            width 600px
+            #text-2
+                width 200px
+                float left
+            #text-3
+                &:after 
+                    content ""
+                    display table
+                    clear both
+            #blog_subscription-2
+                border-top 1px solid $main-text
+        .footer-widget-2
+            width 600px
+            .wcb_widget_sponsors
+                .sponsor-level
+                    border-bottom 1px solid $main-text
+                    &:after 
+                        content ""
+                        display table
+                        clear both
+                    .sponsor-logo
+                        float left
+                        padding-right 10px
+                // .patrao-velho
+                //     a
+                .patrao
+                    a
+                        height 150px
+                        max-width 260px
+                .macanudo
+                    a
+                        height 120px
+                        max-width 200px
+                .guapo
+                    a
+                        height 100px
+                        max-width 150px
+                .petico
+                    a
+                        height 85px
+                        max-width 120px
+                .apoio
+                    a
+                    height 65px
+                    max-width 110px
