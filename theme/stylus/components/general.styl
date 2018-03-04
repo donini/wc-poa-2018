@@ -31,12 +31,11 @@
         h2
             color $primary-color
             font-size 24px
+            padding 0
+            margin 18px 0
+            font-weight 300
         .footer-widget-1
-            width 600px
-            h2
-                padding 0
-                margin 18px 0
-                font-weight 300
+            width 44%
             #text-2
                 width 200px
                 float left
@@ -49,10 +48,12 @@
             #blog_subscription-2
                 border-top 1px solid $main-text
         .footer-widget-2
-            width 600px
+            width 50%
             .wcb_widget_sponsors
                 .sponsor-level
                     border-bottom 1px solid $main-text
+                    &:last-child
+                        border-bottom 0
                     &:after 
                         content ""
                         display table
