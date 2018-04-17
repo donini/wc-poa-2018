@@ -1,12 +1,20 @@
 .has-header-image:not( .twentyseventeen-front-page ):not( .home )
-    .custom-header-media
-        &:before
-            background none
+    .custom-header
+        margin-bottom 0
+        .custom-header-media
+            &:before
+                background none
 
-        img
-            content url( 'https://2017.portoalegre.wordcamp.org/files/2017/04/mosaico-porto-alegre_azul.jpg' )
-            height auto
-            top -66px
+            img
+                content url( 'https://2018.portoalegre.wordcamp.org/files/2017/04/mosaico-porto-alegre_azul.jpg' )
+                height auto
+                top -66px
+        .site-branding
+            display block
+            .wrap
+                display none
+    .navigation-top
+        bottom auto
 
 .has-header-image.twentyseventeen-front-page
     .custom-header
